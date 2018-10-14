@@ -57,9 +57,9 @@ This box comes with everything you need to start using smart contracts from a re
 
     It's as easy as modifying the config file! [Check out our documentation on adding network configurations](http://truffleframework.com/docs/advanced/configuration#networks). Depending on the port you're using, you'll also need to update line 24 of `src/utils/getWeb3.js`.
 
-* __Why is there both a truffle.config file and a truffle-config.js file?__
+* __Why is there both a truffle.js file and a truffle-config.js file?__
 
-    `truffle-config.js` is a copy of `truffle.config` for compatibility with Windows development environments. Feel free to it if it's irrelevant to your platform.
+    `truffle-config.js` is a copy of `truffle.js` for compatibility with Windows development environments. Feel free to it if it's irrelevant to your platform.
 
 * __Where is my production build?__
 
